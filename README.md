@@ -8,7 +8,7 @@
 
 My version of a Mandelbrot set plotter using SDL2 Library 
 
-<img src="image/main.png">
+<img src="image/main.png" height="400" width="400">
 </div>
 
 <details open>
@@ -141,27 +141,27 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 
 # Gallery
 - ### Colortheme/palette 1 `-p 0`
-<img src="image/colorimg1.png">
+<img src="image/colorimg1.png" height="200" width="200">
 
 <br>
 
 - ### Colortheme/palette 2 `-p 1`
-<img src="image/colorimg2.png">
+<img src="image/colorimg2.png" height="200" width="200">
 
 <br>
 
 - ### Colortheme/palette 3 `-p 2`
-<img src="image/colorimg3.png">
+<img src="image/colorimg3.png" height="200" width="200">
 
 <br>
 
 - ### Colortheme/palette 4 `-p 3`
 <div>
     <div style="display:inline-block">
-        <img src="image/colorimg4.png" height="400" width="400">
+        <img src="image/colorimg4.png" height="200" width="200">
     </div>
     <div style="display:inline-block">
-        <img src="image/colorimg1.png" height="400" width="400">
+        <img src="image/colorimg1.png" height="200" width="200">
     </div>
 </div>
 
