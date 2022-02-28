@@ -8,7 +8,8 @@
 
 My version of a Mandelbrot set plotter using SDL2 Library 
 
-<img src="image/main.png" height="400" width="400">
+<img src="image/mandelbrot.gif" width="400" height="400">
+
 </div>
 
 <details open>
@@ -48,9 +49,44 @@ Download the latest version from [release](). Extract the binaries and dll to a 
 
 <br>
 
+>## UI element
 When you open the program you will see the mandelbrot set being rendered in the viewport as well as other UI element/info showing in the top left corner. Those UI/info will help you to navigate when exploring the mandelbrot set.
 
 <img src="image/ui.png">
+
+### 1. Center Coordinate
+This coordinate is where the center of the screen is curently located. This will help you to navigate around when exploring the mandelbrot set.
+
+<br>
+
+### 2. Frame Time
+Total time needed to render the current frame.
+
+<br>
+
+### 3. Zoom value
+It's the zoom!.
+
+<br>
+
+### 4. Zooming multiplier
+When zooming in/out this value will multiply the current zoom value
+
+<br>
+
+### 5. Iteration step
+When increasing/decreasing the maximum iteration value, this value will add or subtract the current max iteration value
+
+<br>
+
+### 6. Maximum Iteration
+This value limit the maximum iteration count of a value in the set before it hit it's potential iteration count. Thus increasing this value may reveal more detail at a cost of more calculation cycle needed.
+
+<br>
+<br>
+
+>## Extra
+- ### Locked zoom coordinate
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
@@ -70,8 +106,8 @@ This section will show you how to use the program and multiple way of using it t
 |:-------------------------------------:|:------------------------------------:|
 |`Left click`                           | Zoom in to the cursor location       |
 |`Right click`                          | Zoom out from the cursor location    |
-|<kbd>E</kbd>                           | Zoom in to the locked coordinate     |
-|<kbd>Q</kbd>                           | Zoom out from the locked coordinate  |
+|<kbd>E</kbd>                           | Zoom in to the [locked coordinate]() |
+|<kbd>Q</kbd>                           | Zoom out from the [locked coordinate]()|
 |<kbd>U</kbd>                           | Toggle info UI                       |
 |<kbd>Z</kbd>                           | Toggle AutoZoom                      |
 |`Mousewheel Up`                        | Increase Max iteration               |
@@ -90,7 +126,7 @@ Openning the program directly by clicking it will run the program with the defau
 ```powershell
 mandelbrot.exe [argument]
 ```
-*All argument can be passes together in any order.
+****All argument can be passes together in any order.***
 
 <br>
 <br>
@@ -127,7 +163,7 @@ This Argument change the colortheme to any of the currently 4 different colorthe
 ```powershell
 mandelbrot.exe -p [palette index]
 ```
-example of setting the colortheme to `palette 1` :
+example of setting the colortheme to `palette 2` :
 ```powershell
 mandelbrot.exe -p 1
 ```
@@ -167,7 +203,7 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
     <img src="image/colorimg4.png" height="200" width="200">
     <img src="image/colorimg1.png" height="200" width="200">
 </p>
-
+<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
 <br>
 <br>
