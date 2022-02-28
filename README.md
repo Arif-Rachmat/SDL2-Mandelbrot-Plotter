@@ -29,7 +29,7 @@ My version of a Mandelbrot set plotter using SDL2 Library
 <br>
 
 # Overview
-The Mandelbrot set is a set of complex number on the complex plane that will not deviate when it is iterated multiple time with the formula $Z_{n+1}=Z_n^2+C$ .
+The Mandelbrot set is a set of complex number on the complex plane that will not deviate when it is iterated multiple time with the formula  Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + C .
 
 This program plot the mandelbrot set by mapping out each pixel according to the coordinate of the complex plane and then iterate it multiple time with the formula mentioned above until it exceed a certain value. Each pixel is then colored according to the number of iteration it reaches, unless it reaches the maximum iteration allowed in this case the pixel is then colored black.
 
