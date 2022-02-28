@@ -238,5 +238,5 @@ Distributed under the GNU General Public V3.0 License. See [`License`]() for mor
 [download-url]: -
 [sdl-shield]:  https://img.shields.io/badge/SDL-v2.0.20-brigthgreen
 [sdl-url]: https://www.libsdl.org/
-[license-shield]: https://img.shields.io/badge/License-GNU-blue
-[license-url]: -
+[license-shield]: https://img.shields.io/github/license/Arif-rachmat/SDL2-Mandelbrot-Plotter?logo=GitHub
+[license-url]: LICENSE
