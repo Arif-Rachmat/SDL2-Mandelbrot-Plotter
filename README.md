@@ -16,7 +16,13 @@ My version of a Mandelbrot set plotter using SDL2 Library
     <summary>Table Of Content</summary>
     <ol>
         <li><a href="#overview">Overview</a></li>
-        <li><a href="#getting-started">Getting Started</a></li>
+        <li>
+        <a href="#getting-started">Getting Started</a>
+        <ul>
+            <li><a href="#ui-element">UI Element</a></li>
+            <li><a href="#extra">Extra</a></li>
+        </ul>
+        </li>
         <li>
             <a href="#usage">Usage</a>
             <ul>
@@ -32,7 +38,7 @@ My version of a Mandelbrot set plotter using SDL2 Library
 <br>
 
 # Overview
-The Mandelbrot set is a set of complex number on the complex plane that will not deviate when it is iterated multiple time with the formula  Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + C .
+The Mandelbrot set is a set of complex number on the complex plane that will not deviate when it is iterated multiple time with the formula  Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + C
 
 This program plot the mandelbrot set by mapping out each pixel according to the coordinate of the complex plane and then iterate it multiple time with the formula mentioned above until it exceed a certain value. Each pixel is then colored according to the number of iteration it reaches, unless it reaches the maximum iteration allowed in this case the pixel is then colored black.
 
@@ -70,12 +76,12 @@ It's the zoom!.
 <br>
 
 ### 4. Zooming multiplier
-When zooming in/out this value will multiply the current zoom value
+When zooming in/out this value will multiply the current zoom value.
 
 <br>
 
 ### 5. Iteration step
-When increasing/decreasing the maximum iteration value, this value will add or subtract the current max iteration value
+When increasing/decreasing the maximum iteration value, this value will add or subtract the current max iteration value.
 
 <br>
 
@@ -87,6 +93,12 @@ This value limit the maximum iteration count of a value in the set before it hit
 
 >## Extra
 - ### Locked zoom coordinate
+This is the coordinate where the camera will zoom in/out when using the manual/keyboard zoom or the [AutoZoom](#autozoom) feature. This variable will change whenever you zoom in/out with you mouse/cursor. You can set the initial coordinate when starting the program to zoom to a certain coordinate you targeted accurately using the [Terminal Command](#zoom-coordinate).
+
+<br>
+
+- ### AutoZoom
+This feature when enabled will automatically zoom to the [Locked Coordinate](#locked-zoom-coordinate) using the current [Zooming multiplier](#4-zooming-multiplier) value. There's currently a frame capture feature being develop so you can automatically capture each frame and then stitch them together to make something like [this](image/mandelbrot.gif).
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
