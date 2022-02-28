@@ -235,11 +235,11 @@ Distributed under the GNU General Public V3.0 License. See [`License`](LICENSE) 
 
 
 <!-- Link for badge and others -->
-[download-shield]: https://img.shields.io/github/downloads/Arif-rachmat/SDL2-Mandelbrot-Plotter/total?color=green&label=Download&logo=GitHubhttps://img.shields.io/badge/Download-v1.0.0-brigthgreen
+[download-shield]: https://img.shields.io/github/downloads/Arif-rachmat/SDL2-Mandelbrot-Plotter/total?color=green&label=Download&logo=GitHub
 [download-url]: https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases
 [sdl-shield]:  https://img.shields.io/badge/SDL-v2.0.20-brigthgreen
 [sdl-url]: https://www.libsdl.org/
 [latest-shield]: https://img.shields.io/github/v/release/Arif-rachmat/SDL2-Mandelbrot-Plotter?label=Latest
 [latest-url]: https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases/tag/v0.1.0
-[license-shield]: https://img.shields.io/github/license/Arif-rachmat/SDL2-Mandelbrot-Plotter?logo=GitHub
+[license-shield]: https://img.shields.io/github/license/Arif-rachmat/SDL2-Mandelbrot-Plotter?logo=GNU
 [license-url]: LICENSE
