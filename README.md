@@ -1,5 +1,6 @@
 # SDL2-Mandelbrot-Plotter
 
+<div align="center">
 
 [![Download][download-shield]][download-url]
 [![SDL][sdl-shield]][sdl-url]
@@ -7,7 +8,8 @@
 
 My version of a Mandelbrot set plotter using SDL2 Library 
 
-
+<img src="image/mandelbrot.png">
+</div>
 
 <details open>
     <summary>Table Of Content</summary>
@@ -33,12 +35,13 @@ The Mandelbrot set is a set of complex number on the complex plane that will not
 
 This program plot the mandelbrot set by mapping out each pixel according to the coordinate of the complex plane and then iterate it multiple time with the formula mentioned above until it exceed a certain value. Each pixel is then colored according to the number of iteration it reaches, unless it reaches the maximum iteration allowed in this case the pixel is then colored black.
 
-Using this program you can 
+Increasing the maximum iteration count will reveal more detail of the mandelbrot set, and with this program you can explore the world of the mandelbrot set made just from a simple mathematical equation.
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
-
-
+<br>
+<br>
+<br>
 
 # Getting Started
 Download the latest version from [release](). Extract the binaries and dll to a single directory, or extract the whole folder.
@@ -49,7 +52,9 @@ When you open the program you
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
 
-
+<br>
+<br>
+<br>
 
 # Usage
 This section will show you how to use the program and multiple way of using it to explore the mandelbrot set.
@@ -82,7 +87,7 @@ Openning the program directly by clicking it will run the program with the defau
 ```powershell
 mandelbrot.exe [argument]
 ```
-*All argument can be passes together in any order
+*All argument can be passes together in any order.
 
 <br>
 <br>
@@ -92,7 +97,7 @@ mandelbrot.exe [argument]
 <br>
 
 - ### Resolution
-This argument will set the window resolution. Setting this to a high value will slows down the rendering time. The default value is `800 x 800` .
+This argument will set the window resolution. Setting this to a high value will slows down the rendering time. The default value is `800 x 800`.
 ```powershell
 mandelbrot.exe -r [width] [height]
 ```
@@ -103,23 +108,58 @@ mandelbrot.exe -r 1920 1080
 <br>
 
 - ### Zoom Coordinate
-This argument will set the starting [zoom coordinate](). Example of the zooming coordinate can be found in [here](http://www.cuug.ab.ca/dewara/mandelbrot/images.html). The default starting coordinate is `X = 0.281717921930775` & `Y = 0.5771052841488505`
+This argument will set the starting [zoom coordinate](). Example of the zooming coordinate can be found in [here](http://www.cuug.ab.ca/dewara/mandelbrot/images.html). The default starting coordinate is `X = 0.281717921930775` & `Y = 0.5771052841488505`.
 ```powershell
 mandelbrot.exe -c [X Coordinate] [Y Coordinate]
 ```
 example of setting the starting zoom coordinate to `X = 0.840719` &
-`Y = 0.22442`
+`Y = 0.22442` :
 ```Powershell
 mandelbrot.exe -c 0.840719 0.22442
 ```
 <br>
 
-- ### Color Palette
+- ### Colortheme
+This Argument change the colortheme to any of the currently 4 different colortheme. The default color is `palette 0` commonly found in the [Wikipedia](https://en.wikipedia.org/wiki/Mandelbrot_set).
+```powershell
+mandelbrot.exe -p [palette index]
+```
+example of setting the colortheme to `palette 1` :
+```powershell
+mandelbrot.exe -p 1
+```
+Example of the colortheme and it's palette index can be found in the [gallery](#gallery)
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
+<br>
+<br>
+<br>
+
+# Gallery
+- ### Colortheme/palette 1 `-p 0`
+<img src="image/color1.png">
+
+<br>
+
+- ### Colortheme/palette 2 `-p 1`
+<img src="image/color2.png">
+
+<br>
+
+- ### Colortheme/palette 3 `-p 2`
+<img src="image/color3.png">
+
+<br>
+
+- ### Colortheme/palette 4 `-p 3`
+<img src="image/color4.png">
 
 
+
+<br>
+<br>
+<br>
 
 # License
 Distributed under the GNU General Public V3.0 License. See [`License`]() for more information.
