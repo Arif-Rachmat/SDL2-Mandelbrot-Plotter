@@ -67,7 +67,7 @@ This section will show you how to use the program and multiple way of using it t
 >## Control
 
 |                  Key                  |           Function                   |
-|---------------------------------------|--------------------------------------|
+|:-------------------------------------:|:------------------------------------:|
 |`Left click`                           | Zoom in to the cursor location       |
 |`Right click`                          | Zoom out from the cursor location    |
 |<kbd>E</kbd>                           | Zoom in to the locked coordinate     |
@@ -156,14 +156,10 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 <br>
 
 - ### Colortheme/palette 4 `-p 3`
-<div>
-    <div style="display:inline-block">
-        <img src="image/colorimg4.png" height="200" width="200">
-    </div>
-    <div style="display:inline-block">
-        <img src="image/colorimg1.png" height="200" width="200">
-    </div>
-</div>
+<p float="left">
+    <img src="image/colorimg4.png" height="200" width="200">
+    <img src="image/colorimg1.png" height="200" width="200">
+</p>
 
 
 <br>
