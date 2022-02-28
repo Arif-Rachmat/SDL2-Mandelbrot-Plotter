@@ -8,7 +8,7 @@
 
 My version of a Mandelbrot set plotter using SDL2 Library 
 
-<img src="image/mandelbrot.gif" width="400" height="400">
+<img src="image/mandelbrotAnim.gif" width="250" height="250">
 
 </div>
 
