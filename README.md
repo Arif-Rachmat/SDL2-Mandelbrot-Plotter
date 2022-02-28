@@ -15,13 +15,11 @@ My version of a Mandelbrot set plotter using SDL2 Library
         <li><a href="#overview">Overview</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
         <li>
-        <details>
-            <summary><a href="#usage">Usage</a></summary>
+            <a href="#usage">Usage</a>
             <ul>
-            <li><a href="#control">Control</a></li>
-            <li><a href="#terminal">Terminal</a></li>
+                <li><a href="#control">Control</a></li>
+                <li><a href="#terminal">Terminal</a></li>
             </ul>
-        </details>
         </li>
         <li><a href="#license">License</a></li>
     </ol>
@@ -89,7 +87,7 @@ mandelbrot.exe [argument]
 <br>
 <br>
 
-Some of the available arguments are :
+#### Some of the available arguments are :
 
 <br>
 
