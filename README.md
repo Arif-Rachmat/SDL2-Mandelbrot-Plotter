@@ -213,7 +213,11 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 - ### Colortheme/palette 4 `-p 3`
 <p float="left">
     <img src="image/colorimg4.png" height="200" width="200">
-    <img src="image/colorimg1.png" height="200" width="200">
+    <img src="image/colorimg4_0.png" height="200" width="200">
+    <img src="image/colorimg4_1.png" height="200" width="200">
+    <img src="image/colorimg4_2.png" height="200" width="200">
+    <img src="image/colorimg4_3.png" height="200" width="200">
+    <img src="image/colorimg4_4.png" height="200" width="200">
 </p>
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
