@@ -46,7 +46,10 @@ Increasing the maximum iteration count will reveal more detail of the mandelbrot
 # Getting Started
 Download the latest version from [release](). Extract the binaries and dll to a single directory, or extract the whole folder.
 
-When you open the program you
+<br>
+
+When you open the program you will see the mandelbrot set being rendered in the viewport as well as other UI element/info showing in the top left corner. Those UI/info will help you to navigate when exploring the mandelbrot set.
+
 <img src="image/ui.png">
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
@@ -153,8 +156,14 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 <br>
 
 - ### Colortheme/palette 4 `-p 3`
-<img src="image/color4.png">
-
+<div>
+    <div style="display:inline-block">
+        <img src="image/color4.png" height="400" width="400">
+    </div>
+    <div style="display:inline-block">
+        <img src="image/color1.png" height="400" width="400">
+    </div>
+</div>
 
 
 <br>
