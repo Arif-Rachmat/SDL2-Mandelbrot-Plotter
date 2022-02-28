@@ -4,6 +4,7 @@
 
 [![Download][download-shield]][download-url]
 [![SDL][sdl-shield]][sdl-url]
+[![Latest][latest-shield]][latest-url]
 [![License][license-shield]][license-url]
 
 My version of a Mandelbrot set plotter using SDL2 Library 
@@ -51,7 +52,7 @@ Increasing the maximum iteration count will reveal more detail of the mandelbrot
 <br>
 
 # Getting Started
-Download the latest version from [release](). Extract the binaries and dll to a single directory, or extract the whole folder.
+Download the latest version from [release](https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases). Extract the binaries and dll to a single directory, or extract the whole folder.
 
 <br>
 
@@ -118,8 +119,8 @@ This section will show you how to use the program and multiple way of using it t
 |:-------------------------------------:|:------------------------------------:|
 |`Left click`                           | Zoom in to the cursor location       |
 |`Right click`                          | Zoom out from the cursor location    |
-|<kbd>E</kbd>                           | Zoom in to the [locked coordinate]() |
-|<kbd>Q</kbd>                           | Zoom out from the [locked coordinate]()|
+|<kbd>E</kbd>                           | Zoom in to the [locked coordinate](#locked-zoom-coordinate) |
+|<kbd>Q</kbd>                           | Zoom out from the [locked coordinate](#locked-zoom-coordinate)|
 |<kbd>U</kbd>                           | Toggle info UI                       |
 |<kbd>Z</kbd>                           | Toggle AutoZoom                      |
 |`Mousewheel Up`                        | Increase Max iteration               |
@@ -226,7 +227,7 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 <br>
 
 # License
-Distributed under the GNU General Public V3.0 License. See [`License`]() for more information.
+Distributed under the GNU General Public V3.0 License. See [`License`](LICENSE) for more information.
 
 <p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
 
@@ -234,9 +235,11 @@ Distributed under the GNU General Public V3.0 License. See [`License`]() for mor
 
 
 <!-- Link for badge and others -->
-[download-shield]: https://img.shields.io/badge/Download-v1.0.0-brigthgreen
-[download-url]: -
+[download-shield]: https://img.shields.io/github/downloads/Arif-rachmat/SDL2-Mandelbrot-Plotter/total?color=green&label=Download&logo=GitHubhttps://img.shields.io/badge/Download-v1.0.0-brigthgreen
+[download-url]: https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases
 [sdl-shield]:  https://img.shields.io/badge/SDL-v2.0.20-brigthgreen
 [sdl-url]: https://www.libsdl.org/
+[latest-shield]: https://img.shields.io/github/v/release/Arif-rachmat/SDL2-Mandelbrot-Plotter?label=Latest
+[latest-url]: https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases/tag/v0.1.0
 [license-shield]: https://img.shields.io/github/license/Arif-rachmat/SDL2-Mandelbrot-Plotter?logo=GitHub
 [license-url]: LICENSE
