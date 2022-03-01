@@ -43,16 +43,16 @@ The Mandelbrot set is a set of complex number on the complex plane that will not
 
 This program plot the mandelbrot set by mapping out each pixel according to the coordinate of the complex plane and then iterate it multiple time with the formula mentioned above until it exceed a certain value. Each pixel is then colored according to the number of iteration it reaches, unless it reaches the maximum iteration allowed in this case the pixel is then colored black.
 
-Increasing the maximum iteration count will reveal more detail of the mandelbrot set, and with this program you can explore the world of the mandelbrot set made just from a simple mathematical equation.
+Increasing the maximum iteration count will reveal more detail of the mandelbrot set, and although this program use `long double` data type for the highest floating point precision, it was build using MSVC compiler therefore it only use 8 byte of memory (as supposed to C++ standard 10 byte or even 16 byte long double).
 
-<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
+<p align="right"><a href="#sdl2-mandelbrot-plotter"><kbd>Back to Top</kbd></a></p>
 
 <br>
 <br>
 <br>
 
 # Getting Started
-Download the latest version from [release](https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases). Extract the binaries and dll to a single directory, or extract the whole folder.
+Download the latest version from [release](https://github.com/Arif-Rachmat/SDL2-Mandelbrot-Plotter/releases). Extract the binaries and dll to a single directory.
 
 <br>
 
@@ -62,7 +62,7 @@ When you open the program you will see the mandelbrot set being rendered in the 
 <img src="image/ui.png">
 
 ### 1. Center Coordinate
-This coordinate is where the center of the screen is curently located. This will help you to navigate around when exploring the mandelbrot set.
+This coordinate is where the center of the screen is currently located. This will help you to navigate around when exploring the mandelbrot set.
 
 <br>
 
@@ -99,9 +99,9 @@ This is the coordinate where the camera will zoom in/out when using the manual/k
 <br>
 
 - ### AutoZoom
-This feature when enabled will automatically zoom to the [Locked Coordinate](#locked-zoom-coordinate) using the current [Zooming multiplier](#4-zooming-multiplier) value. There's currently a frame capture feature being develop so you can automatically capture each frame and then stitch them together to make something like [this](image/mandelbrot.gif).
+This feature when enabled will automatically zoom in every frame to the [Locked Coordinate](#locked-zoom-coordinate) using the current [Zooming multiplier](#4-zooming-multiplier) value until it reaches 1.5<sub><sup> x </sup></sub>10<sup>14</sup> times magnification. There's currently a frame capture feature being develop so you can automatically capture each frame and then stitch them together to make something like [this](image/mandelbrot.gif).
 
-<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
+<p align="right"><a href="#sdl2-mandelbrot-plotter"><kbd>Back to Top</kbd></a></p>
 
 
 <br>
@@ -160,7 +160,7 @@ mandelbrot.exe -r 1920 1080
 <br>
 
 - ### Zoom Coordinate
-This argument will set the starting [zoom coordinate](). Example of the zooming coordinate can be found in [here](http://www.cuug.ab.ca/dewara/mandelbrot/images.html). The default starting coordinate is `X = 0.281717921930775` & `Y = 0.5771052841488505`.
+This argument will set the starting [zoom coordinate](#locked-zoom-coordinate). Example of the zooming coordinate can be found in [here](http://www.cuug.ab.ca/dewara/mandelbrot/images.html). The default starting coordinate is `X = 0.281717921930775` & `Y = 0.5771052841488505`.
 ```powershell
 mandelbrot.exe -c [X Coordinate] [Y Coordinate]
 ```
@@ -182,7 +182,7 @@ mandelbrot.exe -p 1
 ```
 Example of the colortheme and it's palette index can be found in the [gallery](#gallery)
 
-<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
+<p align="right"><a href="#sdl2-mandelbrot-plotter"><kbd>Back to Top</kbd></a></p>
 
 <br>
 <br>
@@ -220,7 +220,7 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
     <img src="image/colorimg4_3.png" height="200" width="200">
     <img src="image/colorimg4_4.png" height="200" width="200">
 </p>
-<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
+<p align="right"><a href="#sdl2-mandelbrot-plotter"><kbd>Back to Top</kbd></a></p>
 
 <br>
 <br>
@@ -229,7 +229,7 @@ Example of the colortheme and it's palette index can be found in the [gallery](#
 # License
 Distributed under the GNU General Public V3.0 License. See [`License`](LICENSE) for more information.
 
-<p align="right"><a href="#sdl2-mandelbrot-plotter">[Back to Top]</a></p>
+<p align="right"><a href="#sdl2-mandelbrot-plotter"><kbd>Back to Top</kbd></a></p>
 
 
 
